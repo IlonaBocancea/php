@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+    <title>News</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide1").click(function(){
+                $("p1").hide();
+            });
+            $("#show1").click(function(){
+                $("p1").show();
+            });
+        });
+        $(document).ready(function(){
+            $("#hide2").click(function(){
+                $("p2").hide();
+            });
+            $("#show2").click(function(){
+                $("p2").show();
+            });
+        });
+        $(document).ready(function(){
+            $("#hide3").click(function(){
+                $("p3").hide();
+            });
+            $("#show3").click(function(){
+                $("p3").show();
+            });
+        });
+    </script>
+</head>
+<body>
+<nav class="menu">
+    <ul>
+        <li><a href="PHPpr/index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="news.html">News</a>
+            <ul id="submenu">
+                <li><a href="submenu/news1.html">News1</a></li>
+                <li><a href="submenu/news2.html">News2</a></li>
+                <li><a href="submenu/news3.html">News3</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="list">
+<h3>List1</h3>
+<ol>
+    <li>aliquam</li>
+    <li>tortor</li>
+    <li>lacinia</li>
+    <li>consectetur</li>
+</ol>
+<h3>List2</h3>
+<ol>
+    <li>aliquam</li>
+    <li>tortor</li>
+<h3>List3</h3>
+<ol>
+    <li>aliquam</li>
+    <li>tortor</li>
+    <li>lacinia</li>
+</ol>
+</div>
+
+<div class="news1">
+   <h3>Nulla facilisi</h3>
+    <p1>Sed vitae metus et arcu luctus ornare.
+        Cras lacinia sem non nulla imperdiet, a aliquet tortor tristique.
+        Donec condimentum elit eu interdum fermentum.</p1>
+    <button id="hide1">Hide</button>
+    <button id="show1">Show</button>
+</div>
+
+<div class="news2">
+    <h3>Proin posuere</h3>
+    <p2>Pellentesque aliquam augue non enim aliquam, a iaculis tortor.
+        Donec sed justo eu nunc rutrum consequat eu eget tellus.
+        Aliquam fringilla sem vitae consectetur.</p2>
+    <button id="hide2">Hide</button>
+    <button id="show2">Show</button>
+</div>
+
+<div class="news3">
+    <h3>Fusce sit</h3>
+    <p3>Fusce sit amet odio tempus, auctor orci vitae, vestibulum purus.
+        Praesent nec augue tempus, rutrum urna sed, molestie.
+        Sed suscipit massa suscipit.
+    </p3>
+    <button id="hide3">Hide</button>
+    <button id="show3">Show</button>
+</div>
+<footer>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</footer>
+</body>
+</html>
