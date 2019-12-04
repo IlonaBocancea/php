@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/pages/css/style.css">
+    <link rel="stylesheet" type="text/css" href="csssubmenu/news2.css">
+    <link rel="stylesheet" type="text/css" href="csssubmenu/news3.css">
+    <title>News3</title>
+
+</head>
+<body>
+<nav class="menu">
+<ul>
+    <li><a href="PHPpr/index.html">Home</a></li>
+    <li><a href="/pages/about.html">About</a></li>
+    <li><a href="/pages/news.html">News</a>
+        <ul id="submenu">
+            <li><a href="news1.html">News1</a></li>
+            <li><a href="news2.html">News2</a></li>
+            <li><a href="news3.html">News3</a></li>
+        </ul>
+    </li>
+    <li><a href="/pages/contact.html">Contact</a></li>
+</ul>
+</nav>
+<h2>Autori</h2>
+<div class="form">
+    <form action="index.php" method="post">
+        <p> Id_autor <input type="text" name="id_author" required /></p>
+        <br>
+        <p> Nume <input type="text" name="first_name_author" required /></p>
+        <br>
+        <p> Prenume <input type="text" name="last_name_author" required /></p>
+        <br>
+        <p> Ani <input type="text" name="age" required /></p>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>

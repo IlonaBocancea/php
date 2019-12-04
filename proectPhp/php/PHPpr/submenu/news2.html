@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/pages/css/style.css">
+    <link rel="stylesheet" type="text/css" href="csssubmenu/news2.css">
+    <title>News2</title>
+</head>
+<body>
+<nav class="menu">
+<ul>
+    <li><a href="PHPpr/index.html">Home</a></li>
+    <li><a href="/pages/about.html">About</a></li>
+    <li><a href="/pages/news.html">News</a>
+        <ul id="submenu">
+            <li><a href="news1.html">News1</a></li>
+            <li><a href="news2.html">News2</a></li>
+            <li><a href="news3.html">News3</a></li>
+        </ul>
+    </li>
+    <li><a href="/pages/contact.html">Contact</a></li>
+</ul>
+</nav>
+<h2>Carti</h2>
+<div class="form">
+    <form action="index.php" method="post">
+        <p> ID <input type="text" name="id" required /></p>
+        <br>
+        <p> Titlul <input type="text" name="title" required /></p>
+       <br>
+        <p> Id_auhor</p>
+        <select id="id_author" name="name_author">
+            <option value="01">Милена Завойчинская</option>
+            <option value="02">Юлия Бум</option>
+            <option value="03">Олинка</option>
+            <option value="04">Ася Невеличка</option>
+        </select>
+        <br>
+        <p> Pagini <input type="text" name="pages" required /></p>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
