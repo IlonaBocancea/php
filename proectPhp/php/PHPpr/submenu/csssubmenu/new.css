@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+    text-align: left;
+    font-family: Lato;
+    color: white;
+    background: lightgray;
+}
+h1 {
+    font-weight: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+    margin: 20px 0 100px 10px;
+}
+li {
+    float: left;
+    display: block;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: darkgrey;
+}
+
