@@ -1,0 +1,14 @@
+.news1, .news2, .news3 {
+    background-color: azure;
+    margin-bottom: 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border: 1px solid black;
+}
+.news1 {
+    margin-top: -43rem;
+}
+.list {
+    text-align: left;
+    margin-top: 4rem;
+    margin-bottom: 0.98rem;
