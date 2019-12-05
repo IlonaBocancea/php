@@ -1,0 +1,15 @@
+{
+    "name": "biblioteca/carti",
+    "description": "Biblioteca cu carti",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ilona",
+            "email": "ilona.10@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bramus/router": "^1.4"
+    }
+}
