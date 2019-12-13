@@ -13,9 +13,9 @@
           Carti
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="pages/submenu/fantasy.php">Fantasy</a>
-          <a class="dropdown-item" href="pages/submenu/detectiv.php">Detectiv</a>
-          <a class="dropdown-item" href="pages/submenu/diferent.php">Diferent</a>
+          <a class="dropdown-item" href="pages/sbmenu/fantasy.php">Fantasy</a>
+          <a class="dropdown-item" href="pages/sbmenu/detectiv.php">Detectiv</a>
+          <a class="dropdown-item" href="pages/sbmenu/diferent.php">Diferent</a>
         </div>
       </li>
       <li class="nav-item">
