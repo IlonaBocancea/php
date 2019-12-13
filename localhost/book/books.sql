@@ -15,17 +15,21 @@ CREATE TABLE IF NOT EXISTS `books` (
   `ID` smallint(6) NOT NULL AUTO_INCREMENT,
   `Title` varchar(50) DEFAULT NULL,
   `Year` year(4) DEFAULT NULL,
+  `Nr_Pages` smallint(6) DEFAULT NULL,
   `ID_Author` smallint(6) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   KEY `ID_Author` (`ID_Author`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- Дамп данных таблицы book.books: ~2 rows (приблизительно)
 DELETE FROM `books`;
 /*!40000 ALTER TABLE `books` DISABLE KEYS */;
-INSERT INTO `books` (`ID`, `Title`, `Year`, `ID_Author`) VALUES
-	(1, 'Перерождение', '2019', 1),
-	(2, 'Алета', '2016', 2);
+INSERT INTO `books` (`ID`, `Title`, `Year`, `Nr_Pages`, `ID_Author`) VALUES
+	(1, 'Перерождение', '2019', 637, 1),
+	(2, 'Алета', '2013', 416, 2),
+	(3, 'Детский сад', '2016', 588, 3),
+	(4, 'Путешествие в мечту', '2019', 4, 4),
+	(5, 'Singur pe lume', '0000', 100, 5);
 /*!40000 ALTER TABLE `books` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
